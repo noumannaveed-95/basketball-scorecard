@@ -2,6 +2,7 @@ body {
     margin: 0;
     font-family: 'Orbitron', sans-serif;
     color: #D44C4D;
+    height: 100vh;
 }
 
 .hero {
