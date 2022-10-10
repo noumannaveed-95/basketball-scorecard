@@ -2,7 +2,7 @@ body {
     margin: 0;
     font-family: 'Orbitron', sans-serif;
     color: #D44C4D;
-    height: 100vh;
+    background-color: #4D2982;
 }
 
 .hero {
@@ -10,17 +10,16 @@ body {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    background: #4D2982;
     margin-bottom: 0px;
     height: 280px;
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 55px;
     letter-spacing: 0.15em;
-    text-shadow: 3px 3px 0.5px #242022;
-    margin-top: 5px;
-    margin-bottom: 0px;
+    text-shadow: 4px 4px 0.5px #242022;
+    margin: 5px auto 0px auto;
+    text-align: center;
 }
 
 #quarter {
@@ -30,6 +29,8 @@ h1 {
     text-align: center;
     background: #242022;
     padding: 6px 12px 0px;
+    margin: 0px auto;
+    border-radius: 25px;
     
     
 }
@@ -37,14 +38,14 @@ h1 {
 .container {
     display: flex;
     justify-content: space-around;
-    background: #4D2982;
     margin-top: 0px;
+    max-width: auto;
 }
 
 #home-total-score, #away-total-score, #new-game-timer {
     border: 2px solid #DDDAE0;
     padding-top: 10px;
-    padding-bottom: px;
+    padding-bottom: 3px;
     margin: 25px auto;
     font-style: medium 500;
     background: #242022;
@@ -53,18 +54,19 @@ h1 {
 
 #home-total-score, #away-total-score {
     color: #FACC22;
-    font-size: 30px;
+    font-size: 36px;
     width: 110px;
     height: 50px;
+    margin-top: 15px
 }
 
 #new-game-timer {
     color: #D44C4D;
     font-size: 45px;
-    letter-spacing: 0.2em;
+    letter-spacing: 0.25em;
     width: 250px;
     height: 50px;
-    margin: 0px;
+    margin: 0px auto;
     padding: 5px 10px 5px 10px;
     text-align: center; //why does the text move//
 }
@@ -72,14 +74,23 @@ h1 {
 #home-box, #away-box {
     text-align: center;
     border: 3px solid #DDDAE0;
-    max-width: 80%;
+    max-width: auto;
+    max-height: auto;
     margin: 10px auto 10px;
     padding: 1px 1px 15px 1px;
 }
 
+h3 {
+    font-size: 28px;
+    text-align: center;
+    margin: 10px auto 0px;
+    letter-spacing: 0.5em;
+    text-shadow: 2px 2px 0.5px #242022;
+}
+
 .points-btn {
     border: 0px;
-    box-shadow: 0px 0px 1px grey;
+    box-shadow: 0px 0px 1px #242022;
     border-radius: 100%;
     
     margin: 0px 5px;
@@ -89,4 +100,13 @@ h1 {
     font-family: 'Orbitron';
     letter-spacing: 0.1em;
     
+}
+
+.ngame-btn {
+    margin: 0px auto;
+    padding: 5px 10px;
+    border-radius: 50px;
+    font-size: 18px;
+    font-family: 'Orbitron';
+    letter-spacing: 0.1em;
 }
